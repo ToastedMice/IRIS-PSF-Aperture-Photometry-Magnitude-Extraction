@@ -42,10 +42,11 @@ Once the process is complete, you will see a message indicating the successful e
 ## Example Data Format
 For successful execution, ensure that your input file follows the example format:
 ```
-Magnitudes:
--18.123
--18.456
--18.789
+x=4377  y=2194  i=2862 
+X = 4404.673  -  Y = 2151.556
+Intensity = 678013.6  -  Background = 2897.58
+Magnitude = -14.578
+FWHM X = 25.27  -  FWHM Y = 24.67
 ```
 
 ## Important Note
