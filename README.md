@@ -18,7 +18,7 @@ Magnitudes:
 
 Prerequisites
 ```
-pip install tkinter`
+pip install tkinter
 ```
 How to Use
 
