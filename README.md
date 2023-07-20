@@ -37,7 +37,7 @@ The calculated average will be written to the specified output file.
 
 ## Check the Output
 
-Once the process is complete, you will see a message indicating the successful export of magnitudes and intensities to the output file.
+Once the process is complete, you will see a message indicating the successful export of magnitudes to the output file.
 
 ## Example Data Format
 For successful execution, ensure that your input file follows the example format:
