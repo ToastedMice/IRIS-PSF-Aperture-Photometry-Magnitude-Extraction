@@ -50,4 +50,4 @@ FWHM X = 25.27  -  FWHM Y = 24.67
 ```
 
 ## Important Note
-This code is designed specifically for IRIS data in the given format. Modify the code accordingly if your data has a different structure or if additional preprocessing is required.
+This code is designed specifically for IRIS data in the given format. Modify the code accordingly if your data has a different structure or if you need to extract a different value other than Magnitude.
