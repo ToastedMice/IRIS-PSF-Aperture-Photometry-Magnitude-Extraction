@@ -41,11 +41,10 @@ Once the process is complete, you will see a message indicating the successful e
 
 ## Example Data Format
 For successful execution, ensure that your input file follows the example format:
-Magnitudes:
--18.123
--18.456
--18.789
-...
+> Magnitudes:
+> -18.123
+> -18.456
+> -18.789
 
 ## Important Note
 This code is designed specifically for IRIS data in the given format. Modify the code accordingly if your data has a different structure or if additional preprocessing is required.
