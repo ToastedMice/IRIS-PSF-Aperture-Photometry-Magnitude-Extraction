@@ -1,6 +1,7 @@
 import sys
 import tkinter as tk
 from tkinter import filedialog
+import math
 
 def extract_data(input_file, output_file):
     with open(input_file, 'r') as f_in:
@@ -25,9 +26,9 @@ def extract_data(input_file, output_file):
         for magnitude in magnitudes:
             f_out.write(magnitude + '\n')
 
-        f_out.write("\nIntensities:\n")
+        f_out.write("\Magnitudes (Only use these if the previous output has no data (These are converted from the intensities especially for the use with apeture photometry)):\n")
         for intensity in intensities:
-            f_out.write(intensity + '\n')
+            f_out.write(str(-2.5 * math.log10(float(intensity))) + '\n')
 
         #f_out.write("\nBackgrounds:\n")
         #for background in backgrounds:
