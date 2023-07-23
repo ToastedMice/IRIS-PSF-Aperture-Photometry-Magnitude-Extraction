@@ -33,7 +33,7 @@ def extract_data(input_file, output_file):
         #for background in backgrounds:
         #    f_out.write(background + '\n')
 
-    print(f"Successfully exported magnitudes and intensities to {output_file}")
+    print(f"Successfully exported magnitudes to {output_file}")
 
 
 def open_file_dialog():
