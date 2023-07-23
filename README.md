@@ -23,7 +23,7 @@ pip install tkinter
 How to Use
 
 Download either ExtractMagnitude.py or Extract MadnitudewAverage.py
-> ExtractMagnitude is for singular readings taken on a single image 
+> ExtractMagnitude is for singular readings taken on a single image and for aperture photometry
 
 > ExtractMagnitudewAverage is for 5 readings taken on a single image which is then averaged into a single reading. The code will read the input file, extract the magnitudes, and calculate the average of the last 5 magnitudes found.
 
